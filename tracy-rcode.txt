@@ -1,0 +1,35 @@
+tdat <- read.table("http://www.medepi.net/data/tracy.txt", as.is=TRUE, sep="", header=FALSE)
+tdat <- as.matrix(tdat) ##convert data frame to matrix
+coln <- c("age1_deaths", "age2_deaths",	"age3_deaths", "age4_deaths", "age1_pop", "age2_pop", "age3_pop", "age4_pop")
+
+n <-  nrow(tdat) ##number of counties
+rown <- paste("county",1:n, sep="") ##create row names
+rownames(tdat) <- rown
+colnames(tdat) <- coln
+
+##separate into pop matrix and count matrix
+cts <- tdat[,1:4]
+cts
+pop <- tdat[,5:8]
+pop
+
+##create vector of standard rates using combind data
+stdcts <- colSums(cts)
+stdcts
+stdpop <- colSums(pop)
+stdpop
+
+results <- matrix(NA, n, 5) ##create empty matrix for results
+colnames(results) <- c("obs","exp","smr","lower","upper")
+rownames(results) <- rown
+
+library(epitools) ##load epitools package
+for(i in 1:n){
+  results[i, ] <- ageadjust.indirect(count = cts[i,],
+                                     pop = pop[i,],
+                                     stdcount = stdcts,
+                                     stdpop = stdpop,
+                                     stdrate = NULL,
+                                     conf.level = 0.95)$sir  ##index SMR
+}
+results

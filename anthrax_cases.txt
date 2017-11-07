@@ -1,0 +1,23 @@
+caseid,onset.date,state,age,sex,race,occupation,case.status,syndrome,status
+ 1,09/22/2001,NY,31,F,W,"Media Employee",  Suspect,   Cutaneous,Alive
+ 2,09/25/2001,NY,38,F,W,"Media Employee",Confirmed,   Cutaneous,Alive
+ 3,09/26/2001,NJ,39,M,W,  "Mail Handler",  Suspect,   Cutaneous,Alive
+ 4,09/28/2001,FL,73,M,H,  "Mail Handler",Confirmed,Inhalational,Alive
+ 5,09/28/2001,NJ,45,F,W,  "Mail Handler",Confirmed,   Cutaneous,Alive
+ 6,09/28/2001,NY,23,F,W,"Media Employee",  Suspect,   Cutaneous,Alive
+ 7,09/29/2001,NY,.6,M,W,         "Other",Confirmed,   Cutaneous,Alive
+ 8,09/30/2001,FL,63,M,W,"Media Employee",Confirmed,Inhalational, Dead
+ 9,10/01/2001,NY,27,F,W,"Media Employee",Confirmed,   Cutaneous,Alive
+10,10/14/2001,PA,35,M,W,  "Mail Handler",Confirmed,   Cutaneous,Alive
+11,10/14/2001,NJ,56,F,B,  "Mail Handler",Confirmed,Inhalational,Alive
+12,10/15/2001,NJ,43,F,A,  "Mail Handler",Confirmed,Inhalational,Alive
+13,10/16/2001,VA,56,M,B,  "Mail Handler",Confirmed,Inhalational,Alive
+14,10/16/2001,MD,55,M,B,  "Mail Handler",Confirmed,Inhalational, Dead
+15,10/16/2001,MD,47,M,B,  "Mail Handler",Confirmed,Inhalational, Dead
+16,10/16/2001,MD,56,M,B,  "Mail Handler",Confirmed,Inhalational,Alive
+17,10/17/2001,NJ,51,F,W,         "Other",Confirmed,   Cutaneous,Alive
+18,10/19/2001,NY,34,M,H,  "Mail Handler",  Suspect,   Cutaneous,Alive
+19,10/22/2001,VA,59,M,W,  "Mail Handler",Confirmed,Inhalational,Alive
+20,10/23/2001,NY,38,M,W,"Media Employee",Confirmed,   Cutaneous,Alive
+21,10/25/2001,NY,61,F,A,         "Other",Confirmed,Inhalational, Dead
+22,11/14/2001,CT,94,F,W,         "Other",Confirmed,Inhalational, Dead

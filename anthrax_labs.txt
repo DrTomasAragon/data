@@ -1,0 +1,37 @@
+labid,caseid,lab.date,site,sample,test,result
+101, 1,10/19/2001,    Blood, Serum,    IgG,Positive
+102, 2,10/12/2001,     Skin,Biopsy,    IHC,Positive
+103, 2,10/12/2001,    Blood, Serum,    IgG,Positive
+104, 3,10/18/2001,    Blood, Serum,    IgG,Positive
+105, 4,10/15/2001,  Pleural,Biopsy,    IHC,Positive
+106, 4,10/15/2001,    Blood, Serum,    IgG,Positive
+107, 5,10/18/2001,     Skin,Biopsy,    IHC,Positive
+108, 5,10/18/2001,     Skin,Biopsy,    PCR,Positive
+109, 5,10/18/2001,    Blood, Serum,    IgG,Positive
+110, 6,10/12/2001,    Blood, Serum,    IgG,Positive
+111, 7,10/15/2001,     Skin,Biopsy,    IHC,Positive
+112, 7,10/15/2001,    Blood, Blood,    PCR,Positive
+113, 8,10/04/2001,      CSF,   CSF,Culture,Positive
+114, 9,10/18/2001,     Skin,Biopsy,    IHC,Positive
+115, 9,10/18/2001,    Blood, Serum,    IgG,Positive
+116,10,10/19/2001,    Blood, Blood,Culture,Positive
+117,10,10/19/2001,    Blood, Serum,    IgG,Positive
+118,11,10/28/2001,    Blood, Blood,    PCR,Positive
+119,11,10/28/2001,  Pleural, Fluid,    IHC,Positive
+120,11,10/28/2001,    Blood, Serum,    IgG,Positive
+121,12,10/29/2001,  Pleural, Fluid,    IHC,Positive
+122,12,10/29/2001,Bronchial,Biopsy,    IHC,Positive
+123,12,10/29/2001,    Blood, Serum,    IgG,Positive
+124,13,10/21/2001,    Blood, Blood,Culture,Positive
+125,14,10/23/2001,    Blood, Blood,Culture,Positive
+126,15,10/26/2001,    Blood, Blood,Culture,Positive
+127,16,10/22/2001,    Blood, Blood,Culture,Positive
+128,17,10/29/2001,     Skin,Biopsy,    IHC,Positive
+129,17,10/29/2001,     Skin,Biopsy,    PCR,Positive
+130,17,10/29/2001,    Blood, Serum,    IgG,Positive
+131,18,10/22/2001,     Skin,Biopsy,    IHC,Positive
+132,19,10/25/2001,    Blood, Blood,Culture,Positive
+133,20,10/28/2001,     Skin,Biopsy,Culture,Positive
+134,21,10/30/2001,  Pleural, Fluid,Culture,Positive
+135,21,10/30/2001,    Blood, Blood,Culture,Positive
+136,22,11/21/2001,    Blood, Blood,Culture,Positive

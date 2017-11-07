@@ -1,0 +1,409 @@
+Dead    Tolbutamide<55
+Dead    Tolbutamide<55
+Dead    Tolbutamide<55
+Dead    Tolbutamide<55
+Dead    Tolbutamide<55
+Dead    Tolbutamide<55
+Dead    Tolbutamide<55
+Dead    Tolbutamide<55
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Tolbutamide55+
+Dead    Placebo    <55
+Dead    Placebo    <55
+Dead    Placebo    <55
+Dead    Placebo    <55
+Dead    Placebo    <55
+Dead    Placebo    55+
+Dead    Placebo    55+
+Dead    Placebo    55+
+Dead    Placebo    55+
+Dead    Placebo    55+
+Dead    Placebo    55+
+Dead    Placebo    55+
+Dead    Placebo    55+
+Dead    Placebo    55+
+Dead    Placebo    55+
+Dead    Placebo    55+
+Dead    Placebo    55+
+Dead    Placebo    55+
+Dead    Placebo    55+
+Dead    Placebo    55+
+Dead    Placebo    55+
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide<55
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedTolbutamide55+
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    <55
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+
+SurvivedPlacebo    55+

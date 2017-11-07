@@ -1,0 +1,19 @@
+##source("http://www.medepi.net/data/oswego/oswego-rcode.txt")
+
+epitable <- function(exposure, outcome, ...){
+  ## Created 2004-07-31, Edited
+  ## exposure = vector of dichotomous exposure variable
+  ## outcome = vector of dichotomous outcome variable
+  ## ... = options to fisher.test functions
+  xy <- table(exposure, outcome)
+  risks <- xy[,2]/rowSums(xy, na.rm=T)
+  risk0 <- risks[1]
+  risk1 <- risks[2]
+  rr <- risk1/risk0
+  or <- (risk1/(1-risk1)) / (risk0/(1-risk0))
+  ft <- fisher.test(xy, ...)
+  pv <- ft$p.value
+  list(data = xy,
+       results = cbind(risk0, risk1, risk.ratio=rr, odds.ratio=or, p.value=pv)
+       )
+}
