@@ -1,0 +1,261 @@
+SubjNo County Age Sex ClinPres DateOnset DateTested Fatality
+1 "San Bernardino" 40 F WNF 05/19/04 06/02/04 No 
+2 "San Bernardino" 64 F WNF 05/22/04 06/16/04 No 
+3 "San Bernardino" 19 M WNF 05/22/04 06/16/04 No 
+4 "San Bernardino" 12 M WNF 05/16/04 06/16/04 No 
+5 "San Bernardino" 12 M WNF 05/14/04 06/16/04 No 
+6 "San Bernardino" 17 M WNF 06/07/04 06/17/04 No 
+7 "San Bernardino" 61 M WNND 06/09/04 06/18/04 No 
+8 "San Bernardino" 74 F WNND 06/14/04 06/22/04 No 
+9 "Los Angeles" 71 M WNF 06/09/04 06/24/04 No 
+10 Riverside 26 M WNND 06/13/04 06/24/04 No 
+11 "Los Angeles" 60 M WNF mid-June 06/25/04 No 
+12 "San Bernardino" 84 F WNND mid-June 07/02/04 No 
+13 "San Bernardino" 42 F WNF 06/09/04 07/05/04 No 
+14 "San Bernardino" 50 M WNND 06/21/04 07/05/04 No 
+15 Riverside 43 F WNND 06/22/04 07/05/04 No 
+16 Riverside 52 M WNND 06/10/04 07/06/04 No 
+17 "San Bernardino" 15 M WNND 06/30/04 07/08/04 No 
+18 "San Bernardino" 53 M WNF 06/28/04 07/09/04 No 
+19 "San Bernardino" 22 M WNND 06/28/04 07/09/04 No 
+20 "San Bernardino" 76 F WNF 06/24/04 07/09/04 No 
+21 "Los Angeles" 43 M WNF 06/21/04 07/13/04 No 
+22 "Los Angeles" 52 M WNF 06/21/04 07/13/04 No 
+23 "San Bernardino" 35 F NA NA 07/14/04 NA 
+24 "San Bernardino" 84 M WNND 07/03/04 07/14/04 No 
+25 "Los Angeles" 70 M WNND 06/25/04 07/16/04 No 
+26 "Los Angeles" 59 M WNND 07/02/04 07/16/04 No 
+27 "Los Angeles" 59 M WNND 07/01/04 07/16/04 No 
+28 "San Bernardino" 72 M WNND NA 07/16/04 No 
+29 "Los Angeles" 35 M WNF 07/05/04 07/20/04 No 
+30 "San Bernardino" 69 M WNND 07/05/04 07/20/04 No
+31 "San Bernardino" 72 F WNF 06/28/04 07/20/04 No 
+32 Riverside 26 F WNF 06/28/04 07/20/04 No 
+33 Riverside 37 M WNND 06/21/04 07/21/04 No 
+34 Riverside 30 F WNF 07/03/04 07/21/04 No 
+35 Orange 57 M WNND 06/22/04 07/21/04 Yes 
+36 "San Bernardino" 52 M NA NA 07/22/04 NA 
+37 "San Bernardino" 59 M NA NA 07/22/04 NA 
+38 "San Bernardino" 35 F WNF 07/07/04 07/22/04 No 
+39 Riverside 56 M WNND 07/04/04 07/22/04 No 
+40 Riverside 46 M WNF 07/04/04 07/22/04 No 
+41 "San Bernardino" 45 M NA NA 07/23/04 NA 
+42 "San Bernardnio" 24 M WNF 06/24/04 07/23/04 No 
+43 Imperial >18 F WNF "Week 28" 07/27/04 No 
+44 "San Bernardino" 58 M NA NA 07/27/04 NA 
+45 "San Bernardino" 43 M WNF NA 07/14/04 No 
+46 "San Bernardino" 75 M WNND 07/04/04 07/21/04 Yes 
+47 "Los Angeles" 34 M WNND 07/14/04 07/26/04 No 
+48 "Los Angeles" 60 M WNND 07/15/04 07/26/04 No 
+49 "Los Angeles" 56 M WNND 07/15/04 07/27/04 No 
+50 "Los Angeles" 9 M WNF 07/05/04 07/27/04 No 
+51 Fresno 52 M WNND 7/17/04 07/28/04 No 
+52 Riverside 34 F WNF 06/23/04 07/21/04 No 
+53 Riverside 33 F WNF 06/23/04 07/21/04 No 
+54 "Los Angeles" 31 M NA 07/14/04 07/28/04 NA 
+55 "San Bernardino" 26 F WNF 06/27/04 07/06/04 No 
+56 "San Bernardino" 39 F WNND 07/15/04 07/23/04 No 
+57 "San Bernardino" 51 M WNF 07/01/04 07/27/04 No 
+58 "San Bernardino" 51 M WNF 07/16/04 07/29/04 No 
+59 "San Bernardino" 44 M WNF NA 07/29/04 NA 
+60 "San Bernardino" 69 M WNF 07/13/04 07/22/04 No 
+61 "San Bernardino" 89 M WNND 07/23/04 07/26/04 No 
+62 "Los Angeles" 20 M WNND 07/21/04 07/29/04 NA 
+63 "Los Angeles" 69 M WNND 07/22/04 NA NA 
+64 "San Bernardino" 58 M WNND 07/18/04 07/30/04 No
+65 "San Bernardino" 49 M WNND 07/12/04 07/22/04 No 
+66 "San Bernardino" 50 M WNF 07/10/04 07/19/04 No 
+67 "San Bernardino" 70 F WNND NA 07/30/04 No 
+68 Riverside 64 M WNF 07/07/04 07/30/04 No 
+69 Riverside 18 M WNND 07/24/04 07/30/04 No 
+70 "Los Angeles" 23 M WNND 07/13/04 08/02/04 No 
+71 "Los Angeles" 43 M WNF 07/15/04 08/02/04 No 
+72 "San Bernardino" 48 M NA NA 08/03/04 NA 
+73 "San Bernardino" 42 F NA NA 08/03/04 NA 
+74 "San Bernardino" 19 F WNF 07/09/04 08/03/04 No 
+75 "San Bernardino" 52 F WNF 07/11/04 08/03/04 No 
+76 "Los Angeles" 60 M WNND 07/26/04 08/03/04 No 
+77 Fresno 30 M WNF 07/12/04 08/03/04 No 
+78 "San Bernardino" 60 M WNF 07/16/04 08/03/04 No 
+79 "Los Angeles" 58 M NA NA 08/04/04 NA 
+80 "Long Beach" >18 F WNND "Week 30" 08/04/04 No 
+81 Pasadena =18 M WNF NA 08/04/04 No 
+82 "San Bernardino" 48 F WNF 07/22/04 08/04/04 No 
+83 Tulare 43 M WNND 07/20/04 08/05/04 No 
+84 Orange 41 M WNND 07/24/04 08/05/04 No 
+85 "San Bernardino" 53 M NA NA 08/05/04 NA 
+86 "San Bernardino" 40 M WNF NA 08/05/04 No 
+87 Kern 34 F WNF 06/19/04 08/05/04 No 
+88 "San Bernardino" 73 M WNF NA 08/05/04 No 
+89 "Los Angeles" 77 F WNND 07/28/04 08/05/04 No 
+90 Riverside 48 M WNF 07/12/04 07/29/04 No 
+91 Riverside 14 F WNF 07/27/04 08/05/04 No 
+92 Riverside 70 F WNND NA 08/05/04 No 
+93 Riverside 28 M WNND 07/31/04 08/05/04 No 
+94 Riverside 19 M WNF 07/29/04 08/05/04 No 
+95 Riverside 72 M WNND 07/30/04 08/05/04 No 
+96 "San Bernardino" 58 M WNF NA 08/05/04 No 
+97 "San Bernardino" 62 F WNF NA 08/05/04 No 
+98 "Los Angeles" 25 M WNND 07/09/04 08/04/04 No
+99 "Los Angeles" 45 F WNND 07/29/04 08/04/04 No 
+100 "San Bernardino" 54 M WNF 07/20/04 08/06/04 No 
+101 "San Bernardino" 41 F WNF 07/21/04 08/06/04 No 
+102 "Los Angeles" 48 M NA NA 08/06/04 NA 
+103 "San Bernardino" 24 M WNND 07/25/04 08/09/04 No 
+104 "San Bernardino" 54 F WNF 07/16/04 08/09/04 No 
+105 "Los Angeles" 71 F WNND 07/30/04 08/09/04 No 
+106 "Los Angeles" 46 M WNND 07/15/04 08/09/04 No 
+107 "Los Angeles" 52 M WNND 06/28/04 08/09/04 No 
+108 "Los Angeles" 35 M WNF 07/28/04 08/09/04 No 
+109 "Los Angeles" 54 F WNND 07/30/04 08/09/04 No 
+110 "Los Angeles" 91 F WNND 08/02/04 08/09/04 Yes 
+111 Riverside 24 M WNND 07/27/04 08/10/04 No 
+112 Riverside 51 M WNF 07/29/04 08/10/04 No 
+113 Riverside 89 F WNND 07/30/04 08/10/04 No 
+114 Riverside 59 M WNND 08/01/04 08/10/04 No 
+115 Riverside 64 F WNND 08/02/04 08/10/04 No 
+116 Riverside 85 M WNND 07/12/04 08/10/04 No 
+117 Riverside 66 M WNND 08/04/04 08/10/04 No 
+118 Riverside 68 M WNF 07/30/04 08/10/04 No 
+119 Riverside 48 M WNF 07/26/04 08/10/04 No 
+120 Riverside 60 F WNND 08/01/04 08/01/04 No 
+121 Riverside 76 M WNND 07/31/04 08/10/04 No 
+122 Riverside 55 M WNF 06/30/04 08/10/04 No 
+123 Riverside 49 M WNF 08/06/04 08/10/04 No 
+124 Riverside 82 F WNF 08/0304 08/10/04 No 
+125 Yolo >18 M WNF "Week 30" 08/11/04 No 
+126 "Los Angeles" 28 M NA NA 08/11/04 NA 
+127 "Los Angeles" 48 M NA NA 08/11/04 NA 
+128 Pasadena >18 M NA NA 08/11/04 NA 
+129 Riverside 44 F NA NA 08/11/04 NA 
+130 "San Bernardino" 42 M NA NA 08/11/04 NA 
+131 Riverside 67 M WNF 07/13/04 08/11/04 No 
+132 "Los Angeles" 79 M WNND 07/23/04 08/11/04 No
+133 "Long Beach" >18 M NA "Week 31" 08/11/04 No 
+134 "Los Angeles" 49 M WNF 07/23/04 08/11/04 No 
+135 Orange 66 M WNF 07/27/04 08/11/04 No 
+136 "San Bernardino" 47 M WNF NA 08/11/04 No 
+137 "San Bernardino" 46 F WNF NA 08/11/04 No 
+138 "San Bernardino" 74 M WNF NA 08/11/04 No 
+139 "San Bernardino" 81 M WNND NA 08/11/04 Yes 
+140 "Los Angeles" 81 F WNND 07/30/04 08/11/04 No 
+141 "San Bernardino" 63 F WNF 07/12/04 08/11/04 No 
+142 "San Bernardino" 49 M WNF 07/12/04 08/11/04 No 
+143 "Los Angeles" 21 M WNND 07/31/04 08/11/04 No 
+144 "Los Angeles" 47 F WNF 07/12/04 08/11/04 No 
+145 "Los Angeles" 41 M WNF 07/23/04 08/11/04 No 
+146 "Los Angeles" 75 F WNND 07/24/04 08/11/04 No 
+147 "Los Angeles" 44 F WNND 07/28/04 08/11/04 No 
+148 Orange 13 M WNF 07/29/04 08/12/04 No 
+149 "San Bernardino" 60 F WNND 07/24/04 08/12/04 No 
+150 "San Bernardino" 35 M WNF 07/02/04 08/12/04 No 
+151 "San Bernardino" 20 F WNF 07/25/04 08/12/04 No 
+152 Orange 67 M WNND 08/02/04 08/12/04 No 
+153 "Los Angeles" 34 F WNF 07/31/04 08/12/04 No 
+154 Orange 24 M WNND 07/12/04 08/12/04 No 
+155 "Los Angeles" 49 F WNND 08/03/04 08/12/04 No 
+156 "Los Angeles" 59 F WNND 08/01/04 08/12/04 No 
+157 "Los Angeles" 41 M WNF 07/28/04 08/12/04 No 
+158 "Los Angeles" 65 F WNF NA 08/12/04 No 
+159 "Los Angeles" 91 M WNND 08/05/04 08/12/04 No 
+160 "San Bernardino" 41 F WNF 07/25/04 08/12/04 No 
+161 "Long Beach" >18 M WNND "Week 30" 08/12/04 No 
+162 Ventura 32 M WNND 08/07/04 08/13/04 No 
+163 Riverside 86 F NA NA 08/13/04 NA 
+164 Riverside 47 F NA NA 08/13/04 NA 
+165 "Los Angeles" 71 M NA NA 08/13/04 NA 
+166 "Los Angeles" 47 F NA NA 08/13/04 NA
+167 "Los Angeles" 26 F WNND 07/31/04 08/16/04 No 
+168 "Los Angeles" 61 M WNF 07/30/04 08/16/04 No 
+169 "San Bernardino" 32 M WNF 07/26/04 08/13/04 No 
+170 "San Bernardino" 31 F WNF 07/23/04 08/13/04 No 
+171 "San Bernardino" 51 F WNF 07/26/04 08/13/04 No 
+172 "San Bernardino" 45 F WNF 07/19/04 08/13/04 No 
+173 "San Bernardino" 28 M WNF NA 08/13/04 No 
+174 "San Bernardino" 64 F NA NA 08/13/04 No 
+175 "San Bernardino" 60 M NA NA 08/13/04 No 
+176 "San Bernardino" 64 F WNND NA 08/13/04 No 
+177 "Los Angeles" 86 M WNND 07/23/04 08/13/04 No 
+178 Merced >18 M WNF "Week 30" 08/17/04 No 
+179 Butte >18 F WNF "Week 30" 08/17/04 No 
+180 "Los Angeles" 81 F WNND 07/25/04 08/17/04 No 
+181 "Los Angeles" 69 M WNND 08/03/04 08/17/04 No 
+182 "Los Angeles" 52 M WNND 08/06/04 08/17/04 No 
+183 "Los Angeles" 44 M WNND 08/09/04 08/17/04 No 
+184 "Los Angeles" 82 F WNND 08/06/04 08/17/04 No 
+185 "Los Angeles" 47 M WNF 08/10/04 08/17/04 No 
+186 "Los Angeles" 89 F WNND 07/31/04 08/17/04 No 
+187 "Los Angeles" 75 F WNND 07/29/04 08/17/04 No 
+188 "Los Angeles" 14 M WNF 08/13/04 08/17/04 No 
+189 Orange 51 M WNND 08/01/04 08/17/04 No 
+190 Riverside 57 M WNND 07/26/04 08/17/04 No 
+191 Riverside 46 M WNF 07/26/04 08/17/04 No 
+192 Lassen NA NA NA NA NA NA 
+193 "Los Angeles" 60 M WNND 08/09/04 08/18/04 Yes 
+194 "Los Angeles" 73 F WNF 07/28/04 08/18/04 No 
+195 "Los Angeles" 63 F WNND 08/05/04 08/18/04 No 
+196 "Los Angeles" 67 M WNND 08/01/04 08/18/04 No 
+197 "Los Angeles" 65 M NA NA 08/18/04 No 
+198 "Los Angeles" 33 F WNND NA 08/18/04 No 
+199 "Los Angeles" 43 M NA 07/22/04 08/18/04 NA 
+200 "Los Angeles" 64 F NA NA 08/18/04 NA
+201 Riverside 37 M NA 07/25/04 08/18/04 NA 
+202 Riverside 44 F NA NA 08/18/04 NA 
+203 "San Bernardino" 57 F NA NA 08/18/04 NA 
+204 "San Bernardino" 34 M NA NA 08/18/04 NA 
+205 "San Bernardino" 68 M NA NA 08/18/04 NA 
+206 "San Bernardino" 20 F NA 07/18/04 08/18/04 NA 
+207 Riverside 41 M WNF NA 08/18/04 No 
+208 Riverside 45 M WNF 08/09/04 08/18/04 No 
+209 Riverside 71 F WNF 08/11/04 08/18/04 No 
+210 Riverside 59 M WNND NA 08/18/04 No 
+211 Riverside 57 M NA 08/12/04 08/18/04 No 
+212 Riverside 32 M WNND 08/14/04 08/18/04 No 
+213 "San Bernardino" 43 M WNF 08/01/04 08/18/04 No 
+214 "San Bernardino" 58 M WNF 08/02/04 08/18/04 No 
+215 "San Bernardino" 36 M WNND 07/17/04 08/18/04 No 
+216 "San Bernardino" 54 F WNF 06/25/04 08/18/04 No 
+217 "San Bernardino" 56 F WNND 07/30/04 08/18/04 No 
+218 "San Bernardino" 72 M NA NA 08/18/04 No 
+219 "San Bernardino" 73 F NA NA 08/18/04 No 
+220 "San Bernardino" 75 F WNND NA 08/18/04 No 
+221 "San Bernardino" 17 F WNF NA 08/18/04 No 
+222 "San Bernardino" 36 M NA NA 08/18/04 No 
+223 "San Bernardino" 28 F WNND 08/03/04 08/18/04 No 
+224 "San Bernardino" 41 M NA NA 08/18/04 No 
+225 Kern 24 M NA 07/24/04 08/19/04 No 
+226 Kern 82 M NA 08/04/04 08/19/04 No 
+227 "Long Beach" 48 M WNF 08/01/04 08/19/04 No 
+228 "Los Angeles" 44 M WNF NA 08/19/04 No 
+229 "Los Angeles" 59 M NA NA 08/19/04 NA 
+230 "San Bernardino" 2 M NA NA 08/19/04 NA 
+231 "San Bernardino" 50 F NA NA 08/19/04 NA 
+232 "San Bernardino" 52 F NA NA 08/19/04 NA 
+233 Riverside 47 M WNF 08/06/04 08/19/04 No 
+234 Orange 84 M WNF 08/04/04 08/19/04 No
+235 "Los Angeles" 62 M WNND 08/09/04 08/20/04 Yes 
+236 "Los Angeles" 24 M NA NA 08/20/04 NA 
+237 "Los Angeles" 51 F WNF 08/10/04 08/20/04 No 
+238 "Los Angeles" 35 F NA NA 08/20/04 NA 
+239 "Los Angeles" 21 M NA NA 08/20/04 NA 
+240 Orange 57 M NA NA 08/20/04 NA 
+241 Orange 60 M NA NA 08/20/04 NA 
+242 "Los Angeles" 66 M WNND 08/07/04 08/20/04 No 
+243 "Los Angeles" NA M WNND NA 08/20/04 No 
+244 "Los Angeles" 76 F WNF 08/03/04 08/20/04 No 
+245 "Los Angeles" 56 M WNF 07/09/04 08/20/04 No 
+246 "Los Angeles" 59 M WNND 07/29/04 08/20/04 No 
+247 "Los Angeles" 77 M WNND 07/29/04 08/20/04 No 
+248 "Los Angeles" 60 F NA 08/06/04 08/23/04 No 
+249 "Los Angeles" NA F WNF 08/10/04 08/23/04 No 
+250 "Los Angeles" 56 F WNND 07/30/04 08/23/04 No 
+251 "Los Angeles" 34 M WNF 08/08/04 08/23/04 No 
+252 "Los Angeles" 53 F WNND 08/14/04 08/23/04 No 
+253 "Los Angeles" 5 M WNND 08/17/04 08/23/04 No 
+254 "Los Angeles" 37 F NA NA 08/23/04 NA 
+255 "Los Angeles" 53 F WNND 08/06/04 08/23/04 No 
+256 "San Bernardino" 9 F NA NA 08/20/04 NA 
+257 "San Bernardino" 62 M NA NA 08/20/04 NA 
+258 Riverside 60 M NA NA 08/20/04 NA 
+259 Riverside 59 M NA NA 08/20/04 NA 
+260 Riverside 73 M NA NA 08/20/04 NA 

@@ -1,0 +1,46 @@
+##source("http://www.medepi.net/data/wnv/ca-wnv-rjob.txt")
+
+##READ DATA
+wd <- read.table("http://www.medepi.net/data/wnv/ca-wnv-2004-07-28.txt", header=T, sep = ",", as.is = T, na.strings = "Unk")
+
+##REVIEW AND CLEAN DATA
+names(wd)
+table(wd$County)
+table(wd$Age)
+hist(wd$Age, col = rgb(141, 160, 203, max = 250) )
+summary(wd$Age)
+table(wd$Sex)
+table(wd$Syndrome)
+wd$Syndrome[wd$Syndrome=="WNF*"] <- "WNF"
+table(wd$Syndrome)
+table(wd$Onset.Date)
+wd$Onset.Date[wd$Onset.Date=="mid-June"] <- "06/15/04"
+table(wd$Onset.Date)
+table(wd$Date.Tested)
+wd$Date.Tested[wd$Date.Tested=="N/A"] <- NA
+table(wd$Date.Tested)
+table(wd$Fatality)
+
+##CREAT EPI CURVE
+##First in R: Packages > Load Packages from CRAN > load chron
+
+yy <- 5 #pad beginning and end of x axis
+od <- chron(wd$Onset.Date)
+
+caldates <- seq(min(od, na.rm=T) - yy, max(od, na.rm=T) + yy, by = 1)
+caldays <- days(caldates)
+odf <- factor(od, levels = caldates)
+epidat <- table(wd$County, odf)
+xv <- barplot(epidat,
+              space = 0,
+              axisnames = F,
+              legend.text = T,
+              axes = F,
+              ylim = c(0, max(colSums(epidat))*2),
+              xlab = "Calendar Time",
+              ylab = "No. of Cases",
+              main = "West Nile Virus Human Cases, California, July 28, 2004",)
+axis(1, at = xv, labels = caldays, tick =F)
+axis(1, at = xv+.5, labels = F, tick =T)
+axis(2)
+mtext(c("May","June","July"), side = 1, line = 2, at = xv[caldays==15])

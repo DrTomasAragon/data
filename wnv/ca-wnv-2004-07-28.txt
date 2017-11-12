@@ -1,0 +1,52 @@
+County, Age, Sex, Syndrome, Onset.Date, Date.Tested, Fatality
+"San Bernardino",40,F,WNF,05/19/04,06/02/04,No
+"San Bernardino",64,F,WNF,05/22/04,06/16/04,No
+"San Bernardino",19,M,WNF,05/22/04,06/16/04,No
+"San Bernardino",12,M,WNF,05/16/04,06/16/04,No
+"San Bernardino",12,M,WNF,05/14/04,06/16/04,No
+"San Bernardino",17,M,WNF,06/07/04,06/17/04,No
+"San Bernardino",61,M,WNND,06/09/04,06/18/04,No
+"San Bernardino",74,F,WNND,06/14/04,06/22/04,No
+"Los Angeles",71,M,WNF,06/09/04,06/24/04,No
+"Riverside",26,M,WNND,06/13/04,06/24/04,No
+"Los Angeles",60,M,WNF,mid-June,06/25/04,No
+"San Bernardino",84,F,WNND,mid-June,07/02/04,No
+"San Bernardino",42,F,WNF,06/09/04,07/05/04,No
+"San Bernardino",50,M,WNND,06/21/04,07/05/04,No
+"Riverside",43,F,WNND,06/22/04,07/05/04,No
+"Riverside",52,M,WNND,06/10/04,07/06/04,No
+"San Bernardino",15,M,WNND,06/30/04,07/08/04,No
+"San Bernardino",53,M,WNF,06/28/04,07/09/04,No
+"San Bernardino",22,M,WNND,06/28/04,07/09/04,No
+"San Bernardino",76,F,WNF,06/24/04,07/09/04,No
+"Los Angeles",43,M,WNF,06/21/04,07/13/04,No
+"Los Angeles",52,M,WNF,06/21/04,07/13/04,No
+"San Bernardino",35,F,Unk,Unk,07/14/04,Unk
+"San Bernardino",84,M,WNND,07/03/04,07/14/04,No
+"Los Angeles",70,M,WNND,06/25/04,07/16/04,No
+"Los Angeles",59,M,WNND,07/02/04,07/16/04,No
+"Los Angeles",59,M,WNND,07/01/04,07/16/04,No
+"San Bernardino",72,M,WNND,Unk,07/16/04,No
+"Los Angeles",35,M,WNF,07/05/04,07/20/04,No
+"San Bernardino",69,M,WNND,07/05/04,07/20/04,No
+"San Bernardino",72,F,WNF,06/28/04,07/20/04,No
+"Riverside",26,F,WNF,06/28/04,07/20/04,No
+"Riverside",37,M,WNND,06/21/04,07/21/04,No
+"Riverside",30,F,WNF,07/03/04,07/21/04,No
+"Orange",57,M,WNND,06/22/04,07/21/04,Yes
+"San Bernardino",52,M,Unk,Unk,07/22/04,Unk
+"San Bernardino",59,M,Unk,Unk,07/22/04,Unk
+"San Bernardino",35,F,WNF,07/07/04,07/22/04,No
+"Riverside",56,M,WNND,07/04/04,07/22/04,No
+"Riverside",46,M,WNF,07/04/04,07/22/04,No
+"San Bernardino",45,M,Unk,Unk,07/23/04,Unk
+"San Bernardino",24,M,WNF,06/24/04,07/23/04,No
+"Imperial",55,F,WNF*,07/16/04,07/27/04,No
+"San Bernardino",58,M,Unk,Unk,07/27/04,Unk
+"San Bernardino",43,M,WNF,Unk,N/A,Unk
+"San Bernardino",45,M,WNND,Unk,N/A,Unk
+"Los Angeles",34,M,WNND,7/14/04,N/A,No
+"Los Angeles",60,M,WNND,7/15/04,N/A,No
+"Los Angeles",56,M,WNND,7/15/04,N/A,No
+"Los Angeles",9,M,WNF,7/5/04,N/A,No
+"Fresno",52,M,WNND,7/17/04,7/28/04,No

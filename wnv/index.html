@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Plotting West Nile Virus Infections</title>
+  </head>
+
+  <body>
+    <h1>Plotting West Nile Virus Infections Using R</h1>
+<font face="arial">
+    By Tomas Aragon, MD, DrPH<br>
+
+Center for Infectious Disease Preparedness<br>
+UC Berkeley School of Public Health<br>
+Email: <a href="mailto:aragon@berkeley.edu">aragon@berkeley.edu</a><br>
+URL: <a href="http://www.idready.org">http://www.idready.org</a>
+
+</font>
+
+    <p>For the following plot we will use California data as of 2004-08-05. To see a similar, yet fictitious data set <a href="wnv2004-08-05.txt">click here</a> (only the illness onset dates and clinical presentations are real, other fields were randomly scrambled). The plots that follow were created using open source, freely available software. To learn more visit <a href="http://www.r-project.org">http://www.r-project.org</a> or contact me.</p>
+
+    <h2>Entering the data</h2>
+
+    <p>To enter the data, copy the following R code and paste in R while connected to the Internet:</p>
+
+    <blockquote>
+<code>
+##READ DATA<br>
+wd <- read.table("http://www.medepi.net/data/wnv/wnv2004-08-05.txt", header=T, sep = ",", as.is = T, na.strings = "Unk")
+</code>
+
+<pre>
+##REVIEW AND CLEAN DATA
+str(wd)
+table(wd$DateOnset)
+wd$DateOnset[wd$DateOnset=="mid-June"] <- "06/15/04"
+table(wd$DateOnset)
+
+#impute missing onset dates with testing dates
+date.onset <- as.Date(wd$DateOnset, format = "%m/%d/%y")
+date.tested <- as.Date(wd$DateTested, format = "%m/%d/%y")
+lag <- as.numeric(median(date.tested - date.onset, na.rm=T))
+date.onset2 <- date.onset
+date.onset2[is.na(date.onset)] <- date.tested[is.na(date.onset)] - lag
+</pre>
+</blockquote>
+
+    <h2>Creating horizontal barplot of cases by county</h2>
+    <blockquote><pre>
+
+##CREATE HORIZONTAL BARPLOT
+clin.pres <- factor(wd$ClinPres, levels = c("WNND","WNF"))
+tabc <- table(clin.pres, wd$County)
+tabc.names <- colnames(tabc)
+tabc.names.sorted <- tabc.names[order(tabc["WNND",])]
+tabc.sorted <- tabc[,order(tabc["WNND",])]
+tabc.sorted.colsums <- colSums(tabc.sorted)
+par(mai=c(1,1.5,1,1))
+yvals <- barplot(tabc.sorted,
+                 horiz=T,
+                 axisnames=F,
+                 col=c("blue", "lightgray"),
+                 xlim = c(0, max(colSums(tabc)) + 10),
+                 xlab = "Cases",
+                 main = "Human West Nile Virus Infections Ranked\n by Number of Neuroinvasive Disease,\n California, As of August 5, 2004"
+                 )
+axis(2, at=yvals, labels=tabc.names.sorted, las=1)
+tabc.sorted.labs <- tabc.sorted
+tabc.sorted.labs[tabc.sorted==0] <- ""
+text(tabc.sorted["WNND",] + 2, yvals, labels = tabc.sorted.labs["WNND",])
+text(tabc.sorted.colsums + 3, yvals, labels = tabc.sorted.labs["WNF",])
+legend(30, yvals[tabc.names.sorted=="Orange"], legend = c("WNND", "WNV"), fill=c("blue", "lightgray"))
+</pre></blockquote>
+
+    <img src="wnv2004-08-05-cases-by-county.png">
+
+    <h2>Creating age histogram</h2>
+
+    <blockquote><pre>
+##PLOT AGE DISTRIBUTION OF CASES
+par(mai=c(1,1,1,.5))
+hist(wd$Age,
+     main = "Histogram of Human West Nile Virus Infections\n by Age, California, As of August 5, 2004",
+     ylim = c(0, 25),
+     xlab = "Age",
+     ylab = "Cases",
+     col = rgb(141, 160, 203, max = 250)
+     )
+</pre></blockquote>
+
+    <img src="wnv2004-08-05-age-histogram.png">
+
+
+    <h2>Creating barplot age distribution by disease</h2>
+    <blockquote><pre>
+##CREATE BARPLOT WITH AGE AS CATEGORICAL VARIABLE
+agelabs <- c("<1", "1 to 4", "5 to 14", "15 to 24", "25 to 44", "45 to 64", "65+")
+agecat <- cut(wd$Age, breaks = c(0,1,5,15,25,45,65,120), labels = agelabs)
+tab.da <- table(clin.pres, agecat)
+par(mai=c(1.25,1,1,.5))
+xvals <- barplot(tab.da,
+                 axisnames = F,
+                 legend.text = T,
+                 ylim = c(0, max(colSums(tab.da))*1.5),
+                 ylab = "Cases",
+                 main = "Barplot of Human West Nile Virus Infections\n by Age Category and Disease (WNF = Febrile illness,\n WNND = Neuroinvasive Disease), California,\n As of August 5, 2004"              )
+axis(1, at = xvals, labels = agelabs, las = 2)
+mtext("Age Group", side = 1, line = 4, at = xvals[agelabs=="15 to 24"])
+
+</pre></blockquote>
+
+    <img src="wnv2004-08-05-age-by-disease.png">
+
+    <h2>Creating the epidemic curve</h2>
+    <p>Although this seems like a lot of work to set up, once you have your code you can automate re-creating plots rapidly as data comes in. This is especially important in public health surveillance.</p>
+
+    <blockquote><pre>
+
+##CREATE EPI CURVE
+##use date.onset2 = Julian dates with missing dates imputed
+
+##Set range of plot
+plot.dates <- seq(min(date.onset2, na.rm=T) - 5, max(date.onset2, na.rm=T) + 5, by = 1)
+plot.dates.mday <- as.POSIXlt(plot.dates)$mday
+xselect <- plot.dates.mday==1 | plot.dates.mday==5 | 
+           plot.dates.mday==10 | plot.dates.mday==15 |
+           plot.dates.mday==20 | plot.dates.mday==25
+
+##Convert data to factor
+date.onset.f <- factor(date.onset2, levels = plot.dates)
+tab.epi <- table(clin.pres, date.onset.f)
+
+##generate epidemic curve using barplot function
+par(mai=c(1,.75,1,.2))
+xvals <- barplot(tab.epi,
+                 space=0,
+                 axisnames = F,
+                 legend.text = T,
+                 col = c("blue", "lightgray"),
+                 ylim = c(0, max(colSums(tab.epi))*1.5),
+                 ylab = "Cases",
+                 xlab = "Calendar Date",
+                 main = "Epidemic Curve of Human West Nile Virus Infections, by Disease\n (WNF = Febrile illness, WNND = Neuroinvasive Disease),\n California, As of August 5, 2004"              )
+axis(1, at = xvals[xselect], labels = plot.dates.mday[xselect], tick=F)
+axis(1, at = xvals+.5, labels = F, tick = T)
+mtext(c("May","June","July"), side=1, line=2, at=xvals[plot.dates.mday==15])
+
+</pre></blockquote>
+
+    <img src =" wnv2004-08-05-epi-curve.png">
+
+    <hr>
+    <address><a href="mailto:aragon@medepi.org"></a></address>
+<!-- Created: Sun Aug 08 18:57:34 Pacific Daylight Time 2004 -->
+<!-- hhmts start -->
+Last modified: Wed Aug 11 10:53:22 Pacific Daylight Time 2004
+<!-- hhmts end -->
+  </body>
+</html>
