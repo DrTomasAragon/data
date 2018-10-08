@@ -1,5 +1,6 @@
 ### R code from vignette source '/home/fizban/book-pratiqueR/english/chap1/chapter1.rnw'
 
+sink("chapter1_log.txt")
 ###################################################
 ### code chunk number 1: chapter1.rnw:103-104
 ###################################################
@@ -157,7 +158,7 @@ all.equal(dag, dag3)
 ###################################################
 ### code chunk number 21: chapter1.rnw:351-354
 ###################################################
-cpt <- list(A = A.prob, S = S.prob, E = E.prob, O = O.prob, 
+cpt <- list(A = A.prob, S = S.prob, E = E.prob, O = O.prob,
         R = R.prob, T = T.prob)
 bn <- custom.fit(dag, cpt)
 
@@ -231,7 +232,7 @@ bn.mle$O
 ###################################################
 ### code chunk number 33: chapter1.rnw:454-456
 ###################################################
-bn.bayes <- bn.fit(dag, data = survey, method = "bayes", 
+bn.bayes <- bn.fit(dag, data = survey, method = "bayes",
               iss = 10)
 
 
@@ -244,7 +245,7 @@ bn.bayes$O
 ###################################################
 ### code chunk number 35: chapter1.rnw:526-529
 ###################################################
-bn.bayes <- bn.fit(dag, data = survey, method = "bayes", 
+bn.bayes <- bn.fit(dag, data = survey, method = "bayes",
               iss = 20)
 bn.bayes$O
 
@@ -252,7 +253,7 @@ bn.bayes$O
 ###################################################
 ### code chunk number 36: chapter1.rnw:629-631
 ###################################################
-(nlevels(survey[, "T"]) - 1) * (nlevels(survey[, "E"]) - 1) * 
+(nlevels(survey[, "T"]) - 1) * (nlevels(survey[, "E"]) - 1) *
   (nlevels(survey[, "O"]) * nlevels(survey[, "R"]))
 
 
@@ -473,14 +474,14 @@ set.seed(123)
 ###################################################
 ### code chunk number 70: chapter1.rnw:1181-1183
 ###################################################
-cpquery(bn, event = (S == "M") & (T == "car"), 
+cpquery(bn, event = (S == "M") & (T == "car"),
           evidence = (E == "high"))
 
 
 ###################################################
 ### code chunk number 71: chapter1.rnw:1191-1193
 ###################################################
-cpquery(bn, event = (S == "M") & (T == "car"), 
+cpquery(bn, event = (S == "M") & (T == "car"),
             evidence = (E == "high"), n = 10^6)
 
 
@@ -539,7 +540,7 @@ graphviz.plot(dag)
 ###################################################
 ### code chunk number 80: chapter1.rnw:1318-1320
 ###################################################
-hlight <- list(nodes = nodes(dag), arcs = arcs(dag), 
+hlight <- list(nodes = nodes(dag), arcs = arcs(dag),
                   col = "grey", textCol = "grey")
 
 
@@ -552,7 +553,7 @@ pp <- graphviz.plot(dag, highlight = hlight)
 ###################################################
 ### code chunk number 82: chapter1.rnw:1332-1335
 ###################################################
-edgeRenderInfo(pp) <- 
+edgeRenderInfo(pp) <-
   list(col = c("S~E" = "black", "E~R" = "black"),
        lwd = c("S~E" = 3, "E~R" = 3))
 
@@ -560,7 +561,7 @@ edgeRenderInfo(pp) <-
 ###################################################
 ### code chunk number 83: chapter1.rnw:1347-1351
 ###################################################
-nodeRenderInfo(pp) <- 
+nodeRenderInfo(pp) <-
   list(col = c("S" = "black", "E" = "black", "R" = "black"),
     textCol = c("S" = "black", "E" = "black", "R" = "black"),
     fill = c("E" = "grey"))
@@ -575,15 +576,15 @@ renderGraph(pp)
 ###################################################
 ### code chunk number 85: chapter1.rnw:1392-1394
 ###################################################
-bn.fit.barchart(bn.mle$T, main = "Travel", 
+bn.fit.barchart(bn.mle$T, main = "Travel",
   xlab = "Pr(T | R,O)", ylab = "")
 
 
 ###################################################
 ### code chunk number 86: chapter1.rnw:1418-1427
 ###################################################
-Evidence <- 
-  factor(c(rep("Unconditional",3), rep("Female", 3), 
+Evidence <-
+  factor(c(rep("Unconditional",3), rep("Female", 3),
            rep("Small City",3)),
          levels = c("Unconditional", "Female", "Small City"))
 Travel <- factor(rep(c("car", "train", "other"), 3),
@@ -613,5 +614,4 @@ barchart(Travel ~ Prob | Evidence, data = distr,
      panel.barchart(...)
      panel.grid(h = 0, v = -1)
    })
-
-
+sink()

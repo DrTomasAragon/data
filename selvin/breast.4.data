@@ -1,0 +1,17 @@
+x1 x2 count
+ 1  1  15
+ 1  0  48
+ 0  1  11
+ 0  0  50
+
+x1 =  diet and no diet
+x2 = improved and no improvement
+
+y1 y2 count
+ 1  1  58
+ 1  0  15
+ 0  1  11
+ 0  0  48
+
+y1 =  diet and no diet
+y2 = conformed and failed to comform to the diet

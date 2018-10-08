@@ -1,4 +1,4 @@
-County,Year,Sex,Age,White,Hispanic,Asian,Pacific Islander,Black,American Indian,Multirace
+County,Year,Sex,Age,White,Hispanic,Asian,Pac.Isl,Black,Amer.Ind,Multirace
 1,2000,F,0,2751,2910,1921,63,1346,32,711
 1,2000,F,1,2673,2837,1820,70,1343,37,574
 1,2000,F,2,2654,2770,1930,64,1442,37,579

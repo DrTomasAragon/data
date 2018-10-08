@@ -1,4 +1,4 @@
-id age sex meal.time ill onset.date onset.time baked.ham spinach mashed.potato cabbage.salad jello rolls brown.bread milk coffee water cakes vanilla.ice.cream chocolate.ice.cream fruit.salad
+id age sex meal.time ill onset.date onset.time baked.ham spinach mashed.potato cabbage.salad jello rolls brown.bread milk coffee water cakes van.ice.cream choc.ice.cream fruit.salad
 2 52 F "8:00 PM" Y 4/19 "12:30 AM" Y Y Y N N Y N N Y N N Y N N
 3 65 M "6:30 PM" Y 4/19 "12:30 AM" Y Y Y Y N N N N Y N N Y Y N
 4 59 F "6:30 PM" Y 4/19 "12:30 AM" Y Y N N N N N N Y N Y Y Y N

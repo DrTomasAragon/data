@@ -1,4 +1,4 @@
-"ID","Age","Sex","MealDate","MealTime","Ill","OnsetDate","TimeOnset","Baked.Ham","Spinach","Mashed.Potatoes","Cabbage.Salad","Jello","Rolls","Brown.Bread","Milk","Coffee","Water","Cakes","Vanilla.Ice.Cream","Chocolate.Ice.Cream","Fruit.Salad"
+"ID","Age","Sex","MealDate","MealTime","Ill","OnsetDate","TimeOnset","Baked.Ham","Spinach","Mashed.Potatoes","Cabbage.Salad","Jello","Rolls","Brown.Bread","Milk","Coffee","Water","Cakes","Van.Ice.Cream","Choc.Ice.Cream","Fruit.Salad"
  2,52,"F","04/18/1940","20:00:00","Y","4/19/1940","00:30:00","Y","Y","Y","N","N","Y","N","N","Y","N","N","Y","N","N"
  3,65,"M","04/18/1940","18:30:00","Y","4/19/1940","00:30:00","Y","Y","Y","Y","N","N","N","N","Y","N","N","Y","Y","N"
  4,59,"F","04/18/1940","18:30:00","Y","4/19/1940","00:30:00","Y","Y","N","N","N","N","N","N","Y","N","Y","Y","Y","N"
