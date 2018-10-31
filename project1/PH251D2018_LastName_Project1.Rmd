@@ -9,9 +9,15 @@ output: word_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Create a project folder called `project1`. You will put all your Project 1 files in this folder. Download this Rmarkdown template (`PH251D2018_LastName_Project1.Rmd`) from this GitHub site: 
+Create a project folder called `project1` on your computer. You will
+put all your Project 1 files in this folder.
 
-Use R Markdown to demonstrate the following skills:
+Go to my GitHub site at <https://github.com/taragonmd/data>.
+
+Go into the `project1` folder.
+
+Download this Rmarkdown template (`PH251D2018_LastName_Project1.Rmd`)
+and edit.  Use R Markdown to demonstrate the following skills:
 
 ## 1. Using the `source` function
 
@@ -19,6 +25,9 @@ Download the `problem1.R` file and save to the `project1` folder. Run
 the program file (problem1.r) using the ‘source’ command. Show the R
 code chunk and results below.
 
+```{r}
+cat('Edit this R chunk')
+```
 
 ## 2. Read an ASCII data set
 
@@ -29,6 +38,10 @@ Alternatively, here is the raw Evans data set: <https://raw.githubusercontent.co
 Demonstrate reading the Evans data file (evans.txt) to create a data
 frame, and use the `str` function to explore the structure of the data
 set. Show the R code chunk and results below.
+
+```{r}
+cat('Edit this R chunk')
+```
 
 ## 3. Discretizing a continuous variable into a categorical variable
 
@@ -44,6 +57,9 @@ variable (factor) with the three levels described above.
 
 [^1]: Source: https://www.medicalnewstoday.com/articles/315900.php
 
+```{r}
+cat('Edit this R chunk')
+```
 
 ## 4. Working with dates and times
 
@@ -53,21 +69,38 @@ use R to display (a) the Julian date; (b) the day of the week, and (c)
 the week of the year.
 
 
+```{r}
+cat('Edit this R chunk')
+```
+
 ## 5. Simple two-way analysis
 
 Create a simple 2x2 table of smoking (`smk`) and coronary heart
 disease (`chd`). Use the `fisher.test` on this 2x2 table and describe
 your findings.
 
+```{r}
+cat('Edit this R chunk')
+```
+
 ## 6. Write your own function
 
 Now, write a function to calculate the odds ratio of your 2x2 table
 above. 
 
+
+```{r}
+cat('Edit this R chunk')
+```
+
 ## 7. Nested `for` loops
 
 Write a nested `for` loops to create a mulitiplication table for the
 numbers 1 to 10.
+
+```{r}
+cat('Edit this R chunk')
+```
 
 ## 8. Create a simple graph
 
@@ -75,11 +108,17 @@ From the Evans data create a histogram of the total cholesterol (`chl`).
 Label with a title and axis labels. Output to a PNG file using the
 `png` function.
 
+```{r}
+cat('Edit this R chunk')
+```
 
 ## 9. Display PNG file in your Rmarkdown document
 
 Using Rmarkdown syntax, display the PNG you created above.
 
+```{r}
+cat('Edit this R chunk')
+```
 
 ## 10. Using regular expressions
 
@@ -89,3 +128,7 @@ Remove the "California" entry.
 
 Use regular expressions to identify and display the County names that
 start with two or three letters followed by a space (e.g., `"San "`).
+
+```{r}
+cat('Edit this R chunk')
+```
