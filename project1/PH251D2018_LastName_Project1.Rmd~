@@ -1,0 +1,72 @@
+---
+title: "PH251D Fall 2018 - Project 1"
+author: "FirstName MI LastName"
+date: "10/29/2018"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Create a project folder called `project1`. You will put all your Project 1 files in this folder. Download this Rmarkdown template (`PH251D2018_LastName_Project1.Rmd`) from this GitHub site: 
+
+Use R Markdown to demonstrate the following skills:
+
+## 1. 
+
+Run the program file (filename1.r) using the ‘source’ command;
+
+## 2. 
+
+Demonstrate reading an ASCII data file (filename2.dat) to create a ‘data frame’;
+
+## 3. 
+
+Demonstrate simple data manipulation (e.g., variable transformation, recoding, etc.); 4. Demonstrate the use of calendar and Julian dates;
+
+## 5. 
+
+Conduct a simple analysis using existing functions (from R, colleagues, etc.);
+
+## 6. 
+
+Conduct a simple analysis demonstrating simple programming (e.g., a ‘for’ loop);
+
+## 7. 
+
+Conduct a simple analysis demonstrating an original function created by student;;
+
+## 8. 
+
+Create a simple graph with title, axes labels and legend, and output to file;
+
+## 9. 
+
+Demonstrate the use of regular expressions;
+
+## 10. 
+
+Demonstrate the use of the ‘sink’ function to generate an output file
+
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
