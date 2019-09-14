@@ -6,9 +6,9 @@ Using R.
 <https://github.com/taragonmd/data>
 
 
-| File            | Description                                        |
-|-----------------+----------------------------------------------------|
-| home-prices.csv | Single family home prices, CA counties, July, 2019 |
+| File      | Description                                        |
+|-----------|---------------------------------------------------- |
+| homes.csv | Single family home prices, CA counties, July, 2019 |
 
 
 
